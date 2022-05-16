@@ -12,7 +12,7 @@ The purple of this challenge is to *Refactor* the data set by fixing the initial
 
 ## Results
 
-As per the VBA Code results shown in the image below, we modify a few steps from the original code. First, we initialize the tickerIndex by setting it to zero and then creating three output arrays to run through the dat set together. What's also different here is tickerVolumes is set to *Long* and both starting and ending prices are set as *Single* due to it requiring less bytes. A loop is then created setting all arrays to zero before we loop through all rows. Then we follow the same process but use *tickerIndex* in the code to check if the current row is the last or first row, and to increase volume for the current ticker all at once as we run through the data set. 
+As per the VBA Code results shown in the image below, we modify a few steps from the original code. First, we initialize the tickerIndex by setting it to zero and then creating three output arrays to run through the data set together. What's also different here is tickerVolumes is set to *Long* and both starting and ending prices are set as *Single* due to it requiring less bytes. A loop is then created setting all arrays to zero before we loop through all rows. Then we follow the same process but use *tickerIndex* in the code to check if the current row is the last or first row, and to increase volume for the current ticker all at once as we run through the data set. 
 
 ![VBA_Code](VBA_Challenge_Code.png)
 
@@ -32,9 +32,6 @@ The results also indicate that the returns in the overall portfolio of tickers w
 
 Disadvantages of refactoring may be that it takes longer to work on the code, and you run the risk of the code not working. 
 
-2) Advantages for refactoring VBA script include making it easier to run through the data by assigning a variable within the data type. The time it takes to run the script is also cut short, so everytime the data in the chart changes it becomes easy and fast to obtain results again. Reports like this one are good to refactor if you are rerunning them on a daily basis and working with new data each time. Advantage of the original script is that although it may need improvements, you don't run the risk of an error while running the code and having to spend more time fixing and running it again. Keeping an original script is good if you are only running it once in a while. 
+2) Advantages for refactoring VBA script include making it easier to run through the data by assigning a variable within the data type. The time it takes to run the script is also cut short, so every time the data in the chart changes it becomes easy and fast to obtain results again. Reports like this one are good to refactor if you are rerunning them on a daily basis and working with new data each time. Advantage of the original script is that although it may need improvement, you don't run the risk of an error while running the code and having to spend more time fixing and running it again. Keeping an original script is good if you are only running it once in a while. 
 
 Disadvantages of the original script is that it is slower and takes more line entries at times. Looping and nesting can also get confusing and it becomes hard for a third party to read if it is not cited correctly with steps and indentation. Disadvantage however of the refactored script is your spending more hours fixing it which takes up valuable time. You could always use outside resources, however you would have to alter other codes to fit the needs of yours. If you do not have previous knowledge in Syntax and order of logical operations, then you may not be able to refactor correctly. 
-
-
-Disadvantages of refactorin
